@@ -31,4 +31,3 @@ def scrape(start_year, end_year, file_path=os.getcwd()):
 
 base_url = "https://www.baseball-reference.com/players/"
 pitching_log_url = "https://www.baseball-reference.com/players/gl.fcgi?"
-scrape(2017, 2019, os.path.join(os.getcwd(), "Box Scores"))
